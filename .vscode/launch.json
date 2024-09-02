@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch Game",
+            "program": "${workspaceFolder}/zig-out/bin/racing",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch Editor",
+            "program": "${workspaceFolder}/zig-out/bin/racing",
+            "args": ["openEditor"],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+.{
+    .name = "zig-sw-racing-engine",
+    .version = "0.0.1",
+    .dependencies = .{
+        .string = .{ .path = "libs/string" },
+        .raygui = .{ .path = "libs/raygui" },
+        .raylib = .{ .path = "libs/raylib" },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "libs",
+        "src",
+    },
+}
